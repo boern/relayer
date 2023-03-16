@@ -9,10 +9,10 @@
     "keyring-backend": "test",
     "gas-adjustment": 1.5,
     "gas-prices": "0.025stake",
+    "min-gas-amount": 1,
     "debug": true,
     "timeout": "10s",
     "output-format": "json",
     "sign-mode": "direct"
   }
 }
-
