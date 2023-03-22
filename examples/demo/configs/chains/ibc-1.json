@@ -4,7 +4,7 @@
     "key": "testkey",
     "chain-id": "ibc-1",
     "rpc-addr": "http://localhost:26557",
-    "grpc-addr": "",
+    "grpc-addr": "0.0.0.0:9091",
     "account-prefix": "cosmos",
     "keyring-backend": "test",
     "gas-adjustment": 1.5,

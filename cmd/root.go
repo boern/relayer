@@ -180,6 +180,7 @@ func newRootLogger(format string, debug bool) (*zap.Logger, error) {
 		encoder.AppendString(ts.UTC().Format("2006-01-02T15:04:05.000000Z07:00"))
 	}
 	config.LevelKey = "lvl"
+	config.EncodeLevel = zapcore.CapitalColorLevelEncoder
 
 	var enc zapcore.Encoder
 	switch format {
